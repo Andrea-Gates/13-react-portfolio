@@ -1,70 +1,129 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Challenge 13: React Portfolio
 
-## Available Scripts
+For this challenge, you will utilize what you have learned in `Module 13: React` to develop the initial scaffolding of your portfolio sites.
 
-In the project directory, you can run:
+Now that you've worked with React and have multiple projects to share, it's time to develop the initial scaffolding for your first portfolio site as well as create and/or update other materials so that you can showcase your skills to potential employers. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
 
-### `npm start`
+## Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Students must fullfil the requirements listed in the following sections:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Design
 
-### `npm test`
+Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Mobile-first design
 
-### `npm run build`
+* Choose a color palette for your site so it doesn't just look like
+the default bootstrap theme or an unstyled HTML site.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Make sure the font size is large enough to read and that the colors don't cause eye strain.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Base Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Technologies that must be used:
+  * [ ] React
+  * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
+* Your portfolio **must contain** the following information:
+  * [ ] Your name
+  * [ ] Links to your:
+    * [ ] GitHub Profile
+    * [ ] LinkedIn Page
+    * [ ] Email Address
+    * [ ] Phone Number - (optional)
+    * [ ] PDF version of your resume
+      * Your resume **must** contain up-to-date projects and professional experience
+    * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
+      * [ ] Project title
+      * [ ] Link to the deployed version
+      * [ ] Link to the GitHub repository
+      * [ ] GIF or screenshot of the deployed application
 
-### `npm run eject`
+### Required Components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* At a minium, your portfolio must render these 6 components:
+  1. [ ] App
+  2. [ ] Header
+  4. [ ] Home
+  5. [ ] Project Gallery
+  6. [ ] Project
+  7. [ ] Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Required Component Content
+* [ ] App:
+  * [ ] Must be your top level component and render all necessary children components
+* [ ] Header:
+   * [ ] Must be rendered across the entire site
+   * [ ] Must Contain a Navbar
+* [ ] Project Gallery:
+  * [ ] Must render dynamically 6 instances of the Project component
+    * [ ] Be sure to store your project data in a JSON file and import it into your project
+* [ ] Project:
+   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
+   * [ ] Must utilize router props to properly render the right project based on user selection
+   * [ ] Must render the following info:
+     * [ ] Project title
+     * [ ] Link to the deployed version
+     * [ ] Link to the GitHub repository
+     * [ ] GIF or screenshot of the deployed application
+* [ ] Contact:
+  * [ ] Must have contact information
+  * [ ] Have a contact form for handling events
+* [ ] Home:
+  * This should be a welcome landing page that contains:
+     * [ ] Your Name
+     * [ ] A Headshot of you
+     * [ ] Your brand statement
+     * [ ] Some indication that this is your portfolio site
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Updated Social Media Presence
+#### LinkedIn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+* If you do not have a LinkedIn profile, please create one.
+#### GitHub
 
-## Learn More
+* Update GitHub profile with pinned repositories featuring those same projects.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Grading
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This challenge is assessed on the following criteria: 
 
-### Code Splitting
+### Technical Acceptance Criteria: 40%
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Satisfies all of the above acceptance criteria 
 
-### Analyzing the Bundle Size
+### Deployment: 32%
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Application deployed at live URL (if applicable).
 
-### Making a Progressive Web App
+* Application loads with no errors.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Application GitHub URL submitted (if applicable).
 
-### Advanced Configuration
+* GitHub repository that contains application code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Application Quality: 15%
 
-### Deployment
+* User experience is intuitive and easy to navigate.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* User interface style is clean and polished.
 
-### `npm run build` fails to minify
+* Application uses a color scheme other than the default Bootstrap color palette.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains quality README file with description, screenshot, and link to deployed application.
+---
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+# React-Portfolio-13
+
