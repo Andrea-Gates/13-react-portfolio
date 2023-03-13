@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Counter from "./Counter";
 
 function Main(props) {
   return (
@@ -14,6 +15,7 @@ function Main(props) {
         raclette church-key enamel pin. Retro 8-bit offal, scenester four loko
         fingerstache semiotics tumblr.
       </p>
+      <Counter title={props.title} />
     </main>
   );
 }

@@ -13,24 +13,26 @@ body {
     font-family: sans-serif;
 }
 
-Nav {
+header nav {
     display: flex;
-    color: #fff !important;
-    justify-content: space-between;
-    align-items: right;
+    /* color: white !important; */
+    /* justify-content: space-between; */
+    /* align-items: right; */
     background-color: #999;
     padding: 9px 3%;
+    /* text-decoration: none!important; */
+}
+
+header nav a:not(:last-child){
+    margin-right: 20px;
+    color:#fff;
     text-decoration: none;
 }
 
-Nav a:not(:last-child) {
-    margin-right: 10px;
-}
-
-header h3 {
+/* header h3 {
     color: #fff;
     text-decoration: none;
-}
+} */
 
 main {
     padding: 25px 3%;
@@ -50,11 +52,18 @@ main p {
     line-height: 1.8;
 }
 
+
 button {
     margin: 10px;
+    align-items: center;
 }
 
-counter h2 p{
+h2 {
     margin-left: 0px;
+    text-align:center;
     background-color:aqua;
+}
+
+footer h3 {
+    justify-content: center;
 }
