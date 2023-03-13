@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+Nav {
+    display: flex;
+    color: #fff !important;
+    justify-content: space-between;
+    align-items: right;
+    background-color: #999;
+    padding: 9px 3%;
+    text-decoration: none;
+}
+
+Nav a:not(:last-child) {
+    margin-right: 10px;
+}
+
+header h3 {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 25px 3%;
+}
+
+main h1.main-header {
+    text-align: center;
+    margin: 15px;
+    background-color:red;
+
+}
+
+main p {
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+button {
+    margin: 10px;
+}
+
+counter h2 p{
+    margin-left: 0px;
+    background-color:aqua;
+}
