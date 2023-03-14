@@ -1,10 +1,14 @@
-import React, { useState } from "react";
-
-function Footer() {
+function Footer(props) {
   return (
-    <header>
-      <h3>Footer</h3>
-    </header>
+   <footer>
+      <nav>
+        <button onClick={() => props.setPage("home")}>Home </button>
+        <button onClick={() => props.setPage("contact")}>Contact </button>
+        <button onClick={() => props.setPage("about")}>About </button>
+        <button onClick={() => props.setPage("portfolio")}>Portfolio </button>
+        <button onClick={() => props.setPage("links")}>Links </button>
+      </nav>
+      </footer>
   );
 }
 

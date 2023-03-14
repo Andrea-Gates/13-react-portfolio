@@ -13,17 +13,27 @@ body {
     font-family: sans-serif;
 }
 
-header nav {
-    display: flex;
-    /* color: white !important; */
-    /* justify-content: space-between; */
-    /* align-items: right; */
-    background-color: #999;
-    padding: 9px 3%;
-    /* text-decoration: none!important; */
+header{
+    display: inline-flexbox;
+    color:aliceblue;
+    background-color:navy;
+    padding:10px;
+    justify-content: baseline;
 }
 
-header nav a:not(:last-child){
+header nav button{
+    /* display: flex; */
+    background: none;
+    border: none;
+    font-size: .95rem;
+    padding: 9px 3%;
+    cursor: pointer;
+}
+header nav button:hover {
+    font-size: 1.10rem;
+}
+
+header nav button:not(:last-child){
     margin-right: 20px;
     color:#fff;
     text-decoration: none;
@@ -55,13 +65,17 @@ main p {
 
 button {
     margin: 10px;
+    padding: 3px;
     align-items: center;
+    justify-content: center;
 }
 
 h2 {
     margin-left: 0px;
     text-align:center;
     background-color:aqua;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 footer h3 {
