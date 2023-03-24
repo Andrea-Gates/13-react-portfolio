@@ -21,7 +21,7 @@ body,
 }
 
 .scroll-bg__inner {
-    background-image: url("./images/cartoon_clouds.jpg");
+    background-image: url("./images/cartoon_clouds.png");
     background-repeat: repeat-x;
     background-size: auto 100%;
     animation: scroll-bg 40s linear infinite;
@@ -69,10 +69,7 @@ header nav button:not(:last-child){
     text-decoration: none;
 }
 
-/* header h3 {
-    color: #fff;
-    text-decoration: none;
-} */
+
 
 main {
     padding: 25px 3%;

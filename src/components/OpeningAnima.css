@@ -1,0 +1,88 @@
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.ask,
+.god {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.animate-ask {
+    animation: ask-animation 2s linear forwards;
+}
+
+.animate-god {
+    animation: god-animation 2s linear forwards;
+}
+
+.ask-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.god-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.particle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    animation: particle-animation 2s ease-out forwards;
+}
+
+@keyframes ask-animation {
+    0% {
+        top: -100%;
+    }
+
+    100% {
+        top: 50%;
+    }
+}
+
+@keyframes god-animation {
+    0% {
+        bottom: -100%;
+    }
+
+    100% {
+        bottom: 50%;
+    }
+}
+
+@keyframes particle-animation {
+    0% {
+        opacity: 1;
+        transform: translateX(0) translateY(0) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-100px) translateY(-100px) scale(0.2);
+    }
+}
+
+.particle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    animation: particle-animation 1s ease-out infinite;
+    background-color:red;
+}

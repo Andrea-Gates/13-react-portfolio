@@ -9,7 +9,8 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Links from "./pages/Links";
 import Background from "./components/Background";
-
+import OpeningAnima from "./components/OpeningAnima";
+import "./components/OpeningAnima.css";
 import "./index.css";
 
 function App() {
@@ -33,14 +34,12 @@ function App() {
   };
 
   return (
-    <>
+    <div className="App">
+      <OpeningAnima />
       <Header title={title} setPage={setPage} />
       {handlePageView()}
-
       <Background />
-      <Header title={title} setPage={setPage} />
-      {handlePageView()}
-    </>
+    </div>
   );
 }
 

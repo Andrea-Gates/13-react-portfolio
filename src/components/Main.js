@@ -1,7 +1,7 @@
 function Main(props) {
   return (
     <main>
-      <h1 className="main-header">{props.title}</h1>
+      {/* <h1 className="main-header">{props.title}</h1>
       <p>
         I'm baby flexitarian williamsburg jean shorts DSA retro live-edge,
         Brooklyn lyft authentic. Snackwave PBR&B semiotics messenger bag prism
@@ -12,7 +12,7 @@ function Main(props) {
         raclette church-key enamel pin. Retro 8-bit offal, scenester four loko
         fingerstache semiotics tumblr.
       </p>
-      
+       */}
     </main>
   );
 }
