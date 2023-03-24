@@ -1,8 +1,13 @@
-function Contact() {
+import Form from "../components/Form";
+
+function Contact(props) {
   return (
-    
-      <h1>Contact</h1>
-  )
+    <div>
+      <h1>Contact Page</h1>
+
+      <Form title={props.title} />
+    </div>
+  );
 }
 
 export default Contact;

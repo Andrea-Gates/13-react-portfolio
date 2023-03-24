@@ -39,7 +39,7 @@ export default function Album() {
       <AppBar position="relative">
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            Album layout
+            Websites
           </Typography>
         </Toolbar>
       </AppBar>
@@ -60,7 +60,7 @@ export default function Album() {
               color="text.primary"
               gutterBottom
             >
-              Album layout
+              Portfolio
             </Typography>
             <Typography
               variant="h5"
@@ -78,8 +78,8 @@ export default function Album() {
               spacing={2}
               justifyContent="center"
             >
-              <Button variant="contained">Main call to action</Button>
-              <Button variant="outlined">Secondary action</Button>
+              <Button variant="contained">Work</Button>
+              <Button variant="outlined">About</Button>
             </Stack>
           </Container>
         </Box>
@@ -101,8 +101,8 @@ export default function Album() {
                       // 16:9
                       pt: "56.25%",
                     }}
-                    image="https://source.unsplash.com/random"
-                    alt="random"
+                    image="./images/David_Seaton.png"
+                    alt="mosaic of photos and paintings"
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
